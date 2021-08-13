@@ -267,7 +267,7 @@ public class TileImageProgressBar extends View {
 
     private void fromBitmap(Bitmap bitmap, Resources r) {
         if (bitmap != null) {
-            mBitmapShader = new BitmapShader(bitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
+            mBitmapShader = new BitmapShader(bitmap, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
             mBitmapPaint.setShader(mBitmapShader);
 
             mBitmapWidth = bitmap.getScaledWidth(r.getDisplayMetrics());

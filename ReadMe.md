@@ -1,3 +1,6 @@
+支持自定义进度条图片和自定义进度条背景图片，默认直角，可以随意设置进度条高度和圆角大小。
+进度条图片只需要中间裁剪一小段可重复平铺的图片作为进度条图片或者背景图片即可， 组件会自动平铺并进行两端圆角处理，同时兼容进度过小的情况。
+
 ![效果图](PIC/progressbar.gif)
 
 # gradle引入方法
@@ -12,7 +15,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.dongyonghui:RoundCornerProgressBar:1.0'
+	        implementation 'com.github.dongyonghui:RoundCornerProgressBar:1.0.2'
 	}
 
 # 使用
