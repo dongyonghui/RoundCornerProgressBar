@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 背景  gradient是渐变,corners定义的是圆角 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F66E4C" />
+    <size android:height="10dp" />
+</shape>

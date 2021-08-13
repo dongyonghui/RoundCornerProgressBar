@@ -1,0 +1,3 @@
+rootProject.name = "RoundCornerProgressBar"
+include ':app'
+include ':TileImageProgressBar'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="tipb_TileImageProgressBar">
+        <!--进度条圆角大小，默认0，直角-->
+        <attr name="tipbCornerRadius" format="dimension" />
+        <!--进度条进度图片-->
+        <attr name="tipbProgressImage" format="reference" />
+        <!--进度条背景图片-->
+        <attr name="tipbBackgroundImage" format="reference" />
+        <!--进度大小-->
+        <attr name="tipbProgress" format="integer" />
+        <!--最大进度大小-->
+        <attr name="tipbMaxProgress" format="integer" />
+    </declare-styleable>
+
+</resources>

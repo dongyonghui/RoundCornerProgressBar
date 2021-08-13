@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tipb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认样式" />
+
+    <com.dyh.android.tileimage.TileImageProgressBar
+        android:id="@+id/mTileImageProgressBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="默认样式圆角" />
+
+    <com.dyh.android.tileimage.TileImageProgressBar
+        android:id="@+id/mTileImageProgressBar2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        tipb:tipbCornerRadius="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="自定义图片+圆角" />
+
+    <com.dyh.android.tileimage.TileImageProgressBar
+        android:id="@+id/mTileImageProgressBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tipb:tipbCornerRadius="5dp"
+        tipb:tipbProgressImage="@mipmap/icon_progressbar_red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="自定义图片+背景+圆角" />
+
+    <com.dyh.android.tileimage.TileImageProgressBar
+        android:id="@+id/mTileImageProgressBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tipb:tipbBackgroundImage="@mipmap/icon_progressbar_red_tran"
+        tipb:tipbCornerRadius="5dp"
+        tipb:tipbProgressImage="@mipmap/icon_progressbar_red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="自定义图片+高度+圆角" />
+
+    <com.dyh.android.tileimage.TileImageProgressBar
+        android:id="@+id/mTileImageProgressBar5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        tipb:tipbBackgroundImage="@mipmap/icon_progressbar_red_tran"
+        tipb:tipbCornerRadius="5dp"
+        tipb:tipbProgressImage="@mipmap/icon_progressbar_red" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="布局指定进度" />
+
+    <com.dyh.android.tileimage.TileImageProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tipb:tipbBackgroundImage="@mipmap/icon_progressbar_red_tran"
+        tipb:tipbCornerRadius="5dp"
+        tipb:tipbMaxProgress="100"
+        tipb:tipbProgress="30"
+        tipb:tipbProgressImage="@mipmap/icon_progressbar_red" />
+
+</LinearLayout>
